@@ -331,7 +331,7 @@ RESPUESTA_P1=b
 ```
 
 ```
-PARTE_I_COMPLETA=
+PARTE_I_COMPLETA=SI
 ```
 _(escribí SI cuando el PR esté mergeado)_
 
@@ -472,7 +472,7 @@ RESPUESTA_P2=b
 ```
 
 ```
-PARTE_II_COMPLETA=
+PARTE_II_COMPLETA=SI
 ```
 _(escribí SI cuando el PR del compañero esté aprobado y mergeado)_
 
