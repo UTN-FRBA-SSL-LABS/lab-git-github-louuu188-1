@@ -12,8 +12,8 @@ Git resuelve exactamente eso. Pero Git no es solo un "backup con historial": es 
 Este laboratorio simula el flujo de trabajo que vas a encontrar en equipos profesionales: ramas de trabajo, pull requests, revisión de código y resolución de conflictos.
 
 
-**Nombre:** ___________________________
-**Compañero/a:** ___________________________
+**Nombre:** Lourdes Tamara Lopez Lemachi
+**Compañero/a:** Martin Ezequiel Rojas
 
 ---
 
@@ -569,10 +569,10 @@ RESPUESTA_P3=c
 
 **P1** — ¿Por qué `git revert` es preferible a `git reset --hard` cuando ya hiciste push de los cambios?
 
-> R:
+> R: R: Porque git revert deshace los cambios creando un commit nuevo, sin borrar lo anterior. En cambio, git reset --hard cambia el historial y puede traer problemas si otros ya bajaron esos commits.
 
 ```
-PARTE_III_COMPLETA=
+PARTE_III_COMPLETA=SI
 ```
 _(escribí SI cuando el revert esté pusheado)_
 
@@ -716,10 +716,10 @@ RESPUESTA_P4=b
 
 **P2** — Describí con tus palabras qué diferencia hay entre las dos implementaciones de `esPar` que conflictuaban. ¿En qué caso podría importar elegir una sobre la otra?
 
-> R:
+> R: R: R: Las dos formas sirven para saber si un número es par. La de (n % 2) usa el resto de la división, y la de (n & 1) mira el último bit del número. En la práctica hacen lo mismo, pero la de bits puede ser un poco más rápida en algunos casos.
 
 ```
-PARTE_IV_COMPLETA=
+PARTE_IV_COMPLETA=SI
 ```
 _(escribí SI cuando el conflicto esté resuelto y pusheado)_
 
@@ -777,15 +777,15 @@ RESPUESTA_P7=c
 
 **P3** — Un compañero te dice: "yo hago un solo commit al final del día con todo lo que hice". ¿Qué problemas puede traer esa práctica? ¿Qué le dirías?
 
-> R:
+> R: R: El problema es que se mezclan muchos cambios distintos en un solo commit, entonces después es difícil saber qué se hizo o encontrar un error. También hace más complicado revisar el código. Es mejor hacer varios commits más chicos y claros.
 
 **P4** — ¿Cuál es la diferencia entre `git fetch` y `git pull`? ¿Cuándo preferirías usar uno sobre el otro?
 
-> R:
+> R: R: git fetch trae los cambios del repositorio remoto pero no los aplica, mientras que git pull los trae y además los mezcla con tu código. Usaría fetch si quiero ver qué cambió antes, y pull si quiero actualizar directamente.
 
 **P5** — ¿Qué información debería tener la descripción de un Pull Request para que sea útil para quien lo revisa?
 
-> R:
+> R: R: La descripción debería explicar qué se hizo, para qué sirve y cómo se probó. También está bueno aclarar algo importante del código si hace falta, así el que revisa entiende mejor.
 
 
 ---
